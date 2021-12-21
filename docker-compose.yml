@@ -13,6 +13,7 @@ services:
             - ./mirakurun/data:/app-data
         environment:
             TZ: "Asia/Tokyo"
+            LD_LIBRARY_PATH: /opt/lib
         devices:
             - /dev/bus:/dev/bus
             - /dev/dvb:/dev/dvb
