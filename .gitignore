@@ -7,6 +7,12 @@
 /mirakurun/data/*
 /mirakurun/conf/*
 /mirakurun/opt/*
+/mirakurun/opt/bin/*
+!/mirakurun/opt/bin/
+/mirakurun/opt/bin/rec/*
+!/mirakurun/opt/bin/rec/
+!/mirakurun/opt/lib/
+/mirakurun/opt/lib/*
 !/mirakurun/conf/tuners.yml
 /epgstation/thumbnail/*.jpg
 /epgstation/data/streamfiles/*.ts
