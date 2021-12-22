@@ -56,7 +56,7 @@ services:
             - ./epgstation/data:/app/data
             - ./epgstation/thumbnail:/app/thumbnail
             - ./epgstation/logs:/app/logs
-            - ./recorded:/app/recorded
+            - /mnt/usbHDD/record:/app/recorded
         environment:
             TZ: "Asia/Tokyo"
         depends_on:
