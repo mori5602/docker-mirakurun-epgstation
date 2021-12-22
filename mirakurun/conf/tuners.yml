@@ -24,3 +24,10 @@
   command: /opt/bin/rec/recpt1 --device /dev/px4video3 <channel> - -
   decoder: arib-b25-stream-test
   isDisabled: false
+- name: PX-S1UD
+  types:
+    - GR
+  command: dvbv5-zap -a 0 -c ./config/dvbconf-for-isdb/conf/dvbv5_channels_isdbt.conf -r -P <channel>
+  dvbDevicePath: /dev/dvb/adapter0/dvr0
+  decoder: arib-b25-stream-test
+  isDisabled: false
