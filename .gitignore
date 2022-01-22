@@ -4,6 +4,7 @@
 *.log-*
 .DS_Store
 /recorded/*
+!/recorded/tmp/
 /mirakurun/data/*
 /mirakurun/conf/*
 /mirakurun/opt/*
